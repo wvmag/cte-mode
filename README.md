@@ -1,9 +1,10 @@
 # cte-mode
 
-Talk-like-we-both-have-CTE mode for [omp](https://github.com/). `/cte` makes the
-agent explain everything in the simplest possible terms — short sentences,
-small words, "X good. Y bad.", nicknames for complex things ("the doctor
-(readiness probe)") — while the facts, numbers, code, and commands stay exact.
+Talk-like-we-both-have-CTE mode for omp. `/cte` makes the agent explain
+everything in the simplest possible terms — short sentences, small words,
+"X good. Y bad." — with no metaphors, no similes, no renaming: real names
+stay real (kubectl is kubectl), while the facts, numbers, code, and
+commands stay exact.
 
 Format popularized by fitness creator Josh Gillam (@gillamfitness): useful
 information in the simplest terms, without being condescending. Dumb voice,
@@ -34,7 +35,9 @@ git clone https://github.com/wvmag/cte-mode
 omp install ./cte-mode
 ```
 
-Or add the repo as a plugin marketplace (it ships `marketplace.json`).
+Note: `omp install ./cte-mode` links omp's `node_modules` to the clone
+directory. Keep the clone — delete it and the plugin breaks. Clone it
+somewhere permanent, not `/tmp`.
 
 ## Files
 

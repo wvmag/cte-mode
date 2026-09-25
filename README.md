@@ -40,6 +40,8 @@ omp install ./cte-mode
 - `extensions/cte-mode.js` — the toggle
 - `skills/cte/SKILL.md` — the rules the agent gets
 
+Toggle code ported from i-have-adhd (Ayoub Ghriss, MIT). Good design. Reused it.
+
 ## Note
 
 `omp -p "/cte on"` one-shot run does not save the toggle. Print mode. No session save. Interactive and `omp -c` resume work fine.

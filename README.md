@@ -1,32 +1,30 @@
 # cte-mode
 
-Talk-like-we-both-have-CTE mode for omp. `/cte` makes the agent explain
-everything in the simplest possible terms — short sentences, small words,
-"X good. Y bad." — with no metaphors, no similes, no renaming: real names
-stay real (kubectl is kubectl), while the facts, numbers, code, and
-commands stay exact.
+omp plugin. `/cte` on. Agent talks simple. Like we both have CTE.
 
-Format popularized by fitness creator Josh Gillam (@gillamfitness): useful
-information in the simplest terms, without being condescending. Dumb voice,
-never wrong facts.
+Short sentences. Small words. "X good. Y bad." No metaphors. No renaming. kubectl is kubectl. Redis is Redis.
+
+Facts stay facts. Numbers stay exact. Code stays code. Only the talking is dumb.
+
+Josh Gillam made this bit popular. He explains fitness this way. Simple. Not mean.
 
 ## Commands
 
 | Command | Effect |
 |---|---|
-| `/cte` | Toggle for this session (survives quit + resume) |
-| `/cte on` / `/cte off` | Set explicitly |
-| `/cte status` | Show session state + default |
-| `/cte default on\|off` | New sessions start that way (`~/.config/cte-mode/default`) |
-| `stop cte mode` / `normal mode` | Turn it off in plain language |
+| `/cte` | Toggle. On or off. Survives quit + resume. |
+| `/cte on` / `/cte off` | Set it. |
+| `/cte status` | Show state. |
+| `/cte default on\|off` | New sessions start this way. File: `~/.config/cte-mode/default`. |
+| `stop cte mode` / `normal mode` | Type this. Mode goes off. |
 
-Status bar shows `● 🧠 CTE ON` while active.
+Status bar shows `● 🧠 CTE ON`. Then it is on.
 
-## What it changes
+## What changes
 
-- Prose only. Code blocks, commands, file paths, identifiers, error text: never translated.
-- Real info, dumb words. The point still lands.
-- Session-scoped by default; `/cte default on` opts into cross-session.
+- Words. Only words. Code blocks, commands, file paths, error text: same as always.
+- Info stays right. Voice is dumb. Facts are not.
+- One session only. Default. `/cte default on` makes it sticky.
 
 ## Install
 
@@ -37,14 +35,12 @@ omp install ./cte-mode
 
 ## Files
 
-- `extensions/cte-mode.js` — the toggle (command, session state, rules injection)
-- `skills/cte/SKILL.md` — the ruleset the model gets
+- `extensions/cte-mode.js` — the toggle
+- `skills/cte/SKILL.md` — the rules the agent gets
 
-## Notes
+## Note
 
-- A turnless `omp -p "/cte on"` one-shot doesn't persist the toggle (print
-  mode never flushes session entries; same limitation ponytail has).
-  Interactive use and `omp -c` resume work fully.
+`omp -p "/cte on"` one-shot run does not save the toggle. Print mode. No session save. Interactive and `omp -c` resume work fine.
 
 ## License
 

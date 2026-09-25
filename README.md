@@ -2,7 +2,9 @@
 
 omp plugin. `/cte` on. Agent talks simple. Like we both have CTE.
 
-Short sentences. Small words. "X good. Y bad." No metaphors. No renaming. kubectl is kubectl. Redis is Redis.
+Short sentences. Small words. "X good. Y bad." `->` marks the thing to
+watch: "Rollout finishes -> Good." No metaphors. No renaming. kubectl is
+kubectl. Redis is Redis.
 
 Facts stay facts. Numbers stay exact. Code stays code. Only the talking is dumb.
 

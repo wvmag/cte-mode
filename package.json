@@ -1,0 +1,17 @@
+{
+  "name": "cte-mode",
+  "version": "0.1.0",
+  "description": "Talk-like-we-both-have-CTE mode for omp. /cte toggles caveman-simple replies: short sentences, small words, real info.",
+  "license": "MIT",
+  "private": true,
+  "keywords": ["pi-package"],
+  "type": "module",
+  "omp": {
+    "extensions": ["./extensions/cte-mode.js"],
+    "skills": ["./skills"]
+  },
+  "pi": {
+    "extensions": ["./extensions/cte-mode.js"],
+    "skills": ["./skills"]
+  }
+}

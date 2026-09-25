@@ -35,11 +35,6 @@ git clone https://github.com/wvmag/cte-mode
 omp install ./cte-mode
 ```
 
-`omp install` from a local path does not copy the files. It points omp at
-that folder. The folder becomes the plugin's permanent home — clone it
-somewhere you keep (not `/tmp`), and don't delete it later. Delete it and
-omp's plugin silently dies, even though the install said "Linked ✔".
-
 ## Files
 
 - `extensions/cte-mode.js` — the toggle (command, session state, rules injection)

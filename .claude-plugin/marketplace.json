@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "cte-mode",
+  "description": "Talk-like-we-both-have-CTE mode for omp. Real info, dumb words.",
+  "owner": {
+    "name": "wvmag"
+  },
+  "plugins": [
+    {
+      "name": "cte-mode",
+      "description": "Explains everything like you both have CTE: short sentences, small words, real facts.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

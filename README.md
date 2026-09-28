@@ -30,9 +30,25 @@ Status bar shows `● 🧠 CTE ON`. Then it is on.
 
 ## Install
 
+Point omp at the repo. No clone. No folder to keep. omp keeps its own copy.
+
 ```bash
-git clone https://github.com/wvmag/cte-mode
-omp install ./cte-mode
+omp plugin marketplace add wvmag/cte-mode
+omp plugin install --scope user cte-mode@cte-mode
+```
+
+Update:
+
+```bash
+omp plugin marketplace update cte-mode
+omp plugin upgrade --scope user cte-mode@cte-mode
+```
+
+Uninstall:
+
+```bash
+omp plugin uninstall --scope user cte-mode@cte-mode
+omp plugin marketplace remove cte-mode
 ```
 
 ## Files

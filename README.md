@@ -25,6 +25,7 @@ Status bar shows `● 🧠 CTE ON`. Then it is on.
 ## What changes
 
 - Words. Only words. Code blocks, commands, file paths, error text: same as always.
+- No words born in this chat. "Fast gates green" is banned. Say "ran the quick tests again. they passed." Every line works for someone who just walked in.
 - Info stays right. Voice is dumb. Facts are not.
 - One session only. Default. `/cte default on` makes it sticky.
 

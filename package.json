@@ -1,6 +1,6 @@
 {
   "name": "cte-mode",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Talk-like-we-both-have-CTE mode for omp. /cte toggles caveman-simple replies: short sentences, small words, real info.",
   "license": "MIT",
   "private": true,
